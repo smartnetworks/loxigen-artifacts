@@ -245,11 +245,4 @@ i                                  <ciNodeName>${env.NODE_NAME}</ciNodeName>
             </resource>
         </resources>
     </build>
-    ***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-  ***REMOVED***
 </project>
