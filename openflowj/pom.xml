@@ -10,7 +10,7 @@
 
     <groupId>org.projectfloodlight</groupId>
     <artifactId>openflowj</artifactId>
-    <version>0.10.0-smartnetworks</version>
+    <version>0.10.1-smartnetworks</version>
     <packaging>jar</packaging>
 
     <name>OpenFlowJ-Loxi</name>
