@@ -116,6 +116,14 @@ public class OFActionIdsVer11 implements OFActionIds {
         throw new UnsupportedOperationException("OFActionIdSetQueue not supported in version 1.1");
     }
 
+    public OFActionIdNiciraPushL2 niciraPushL2() {
+        throw new UnsupportedOperationException("OFActionIdNiciraPushL2 not supported in version 1.1");
+    }
+
+    public OFActionIdNiciraPopL2 niciraPopL2() {
+        throw new UnsupportedOperationException("OFActionIdNiciraPopL2 not supported in version 1.1");
+    }
+
     public OFMessageReader<OFActionId> getReader() {
         throw new UnsupportedOperationException("Reader<OFActionId> not supported in version 1.1");
     }

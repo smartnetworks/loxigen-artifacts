@@ -65,6 +65,13 @@ public class OFActionsVer14 implements OFActions {
     public OFActionNiciraDecTtl niciraDecTtl() {
         return OFActionNiciraDecTtlVer14.INSTANCE;
     }
+    public OFActionNiciraPushL2 niciraPushL2() {
+        return OFActionNiciraPushL2Ver14.INSTANCE;
+    }
+
+    public OFActionNiciraPopL2 niciraPopL2() {
+        return OFActionNiciraPopL2Ver14.INSTANCE;
+    }
 
     public OFActionOutput.Builder buildOutput() {
         return new OFActionOutputVer14.Builder();

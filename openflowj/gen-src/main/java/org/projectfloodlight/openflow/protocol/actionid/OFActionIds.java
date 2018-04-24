@@ -38,6 +38,8 @@ public interface OFActionIds {
     OFActionIdDecNwTtl decNwTtl();
     OFActionIdGroup group();
     OFActionIdNiciraDecTtl niciraDecTtl();
+    OFActionIdNiciraPushL2 niciraPushL2();
+    OFActionIdNiciraPopL2 niciraPopL2();
     OFActionIdOutput output();
     OFActionIdPopMpls popMpls();
     OFActionIdPopPbb popPbb();

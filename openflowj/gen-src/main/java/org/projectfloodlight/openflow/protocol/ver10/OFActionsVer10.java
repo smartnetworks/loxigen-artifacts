@@ -279,6 +279,13 @@ public class OFActionsVer10 implements OFActions {
         throw new UnsupportedOperationException("OFActionPushPbb not supported in version 1.0");
     }
 
+    public OFActionNiciraPushL2 niciraPushL2() {
+        throw new UnsupportedOperationException("OFActionNiciraPushL2 not supported in version 1.0");
+    }
+    public OFActionNiciraPopL2 niciraPopL2() {
+        throw new UnsupportedOperationException("OFActionNiciraPopL2 not supported in version 1.0");
+    }
+
     public OFMessageReader<OFAction> getReader() {
         return OFActionVer10.READER;
     }

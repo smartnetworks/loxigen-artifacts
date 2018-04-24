@@ -56,6 +56,10 @@ abstract class OFActionIdNiciraVer13 {
                case (short) 0x12:
                    // discriminator value 0x12=0x12 for class OFActionIdNiciraDecTtlVer13
                    return OFActionIdNiciraDecTtlVer13.READER.readFrom(bb);
+               case (short) 0x19:
+                   return OFActionIdNiciraPushL2Ver13.READER.readFrom(bb);
+               case (short) 0x1A:
+                   return OFActionIdNiciraPopL2Ver13.READER.readFrom(bb);
                default:
                    throw new OFParseError("Unknown value for discriminator subtype of class OFActionIdNiciraVer13: " + subtype);
             }
